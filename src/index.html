@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felipe Londoño Abad | Software Developer</title>
+  
+  <!-- Fuentes de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Archivo CSS compilado de Tailwind -->
+  <link rel="stylesheet" href="output.css" />
+</head>
+
+<body class="bg-abyss text-silver-light font-sans antialiased selection:bg-crimson selection:text-white overflow-x-hidden">
+
+  <!-- Aura ambiental DMC5 (Azul eléctrico & Rojo demoníaco) -->
+  <div class="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
+    <div class="ambient-glow-blue"></div>
+    <div class="ambient-glow-crimson"></div>
+  </div>
+
+  <!-- NAVEGACIÓN -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-abyss/85 border-b border-slate-900 shadow-2xl">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#inicio" class="font-display text-lg sm:text-xl font-bold tracking-widest text-silver-light flex items-center gap-2.5 group">
+        <span class="w-2.5 h-6 bg-gradient-to-b from-electric-blue to-crimson inline-block transform -skew-x-12 group-hover:scale-y-110 transition-transform shadow-[0_0_12px_rgba(59,130,246,0.6)]"></span>
+        <span class="tracking-wider">FELIPE L.</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-silver-muted font-mono">
+        <a href="#sobre-mi" class="hover:text-electric-blue transition-colors">01. Sobre Mí</a>
+        <a href="#experiencia" class="hover:text-electric-blue transition-colors">02. Experiencia</a>
+        <a href="#proyectos" class="hover:text-electric-blue transition-colors">03. Proyectos</a>
+        <a href="#contacto" class="btn-outline-blue">
+          Contacto
+        </a>
+      </nav>
+
+      <!-- Botón móvil -->
+      <a href="#contacto" class="md:hidden text-xs font-mono uppercase tracking-wider px-3 py-1.5 border border-electric-blue/50 text-electric-blue">
+        Contacto
+      </a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- HERO SECTION -->
+    <section class="relative pt-24 pb-28 sm:pt-32 sm:pb-36 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-8 space-y-6">
+          <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 bg-obsidian border border-slate-800 text-xs font-mono text-electric-blue shadow-[0_0_15px_rgba(59,130,246,0.15)]">
+            <span class="w-2 h-2 rounded-full bg-crimson animate-pulse"></span>
+            <span>SOFTWARE DEVELOPER • MEDELLÍN, COLOMBIA</span>
+          </div>
+
+          <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-none">
+            <span class="block text-silver-light">FELIPE</span>
+            <span class="block bg-gradient-to-r from-silver-light via-blue-200 to-electric-blue bg-clip-text text-transparent text-glow-blue mt-2">
+              LONDOÑO ABAD
+            </span>
+          </h1>
+
+          <p class="font-mono text-sm sm:text-base text-electric-ice tracking-wide uppercase">
+            // Desarrollador de Software • Precisión Estilo Yamato
+          </p>
+
+          <p class="text-silver-muted text-base sm:text-lg max-w-2xl leading-relaxed">
+            Construyendo soluciones lógicas y limpias con mentalidad analítica. Diseñando experiencias web responsivas guiadas por el orden, potencia de código y estética oscura de alto impacto.
+          </p>
+
+          <div class="pt-4 flex flex-wrap items-center gap-4">
+            <a href="#proyectos" class="btn-primary-blue">
+              Ver Proyectos
+            </a>
+            <a href="#sobre-mi" class="btn-secondary">
+              Conocer mi perfil
+            </a>
+          </div>
+        </div>
+
+        <!-- Emblema Geométrico DMC5 -->
+        <div class="lg:col-span-4 flex justify-center">
+          <div class="relative w-64 h-64 sm:w-72 sm:h-72 flex items-center justify-center">
+            <div class="absolute inset-0 border border-slate-800 rotate-45"></div>
+            <div class="absolute inset-4 border border-crimson/40 -rotate-12 shadow-[inset_0_0_20px_rgba(239,68,68,0.1)]"></div>
+            <div class="w-48 h-48 bg-obsidian border border-slate-800 clip-slash flex flex-col items-center justify-center p-6 text-center relative overflow-hidden">
+              <div class="dmc-top-bar"></div>
+              <span class="font-display text-4xl font-bold text-silver-light tracking-widest">FLA</span>
+              <span class="font-mono text-[11px] text-silver-muted mt-2 tracking-widest uppercase">
+      
+              </span>
+              <span class="font-mono text-[10px] text-crimson mt-1">DEV. PORTFOLIO</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEPARADOR AZUL/ROJO -->
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="dmc-divider"></div>
+    </div>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-4">
+          <h2 class="section-title">01. SOBRE MÍ</h2>
+          <div class="w-12 h-1 bg-electric-blue mt-3 shadow-[0_0_10px_rgba(59,130,246,0.5)]"></div>
+        </div>
+
+        <div class="lg:col-span-8 card-slash space-y-4 text-silver-muted leading-relaxed">
+          <p>
+            Soy <strong class="text-silver-light font-semibold">Felipe Londoño Abad</strong>, desarrollador de software nacido en Medellín, Colombia. Me apasiona estructurar sistemas, gestionar bases de datos y transformar requerimientos complejos en interfaces limpias, funcionales y altamente eficientes.
+          </p>
+          <p>
+            Mi objetivo constante es perfeccionar mis habilidades técnicas, dominar buenas prácticas de desarrollo web y aportar soluciones robustas que destaquen por su rendimiento y orden impecable.
+          </p>
+        </div>
+      </div>
+    </section>
+
+   <!-- EXPERIENCIA -->
+    <section id="experiencia" class="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <div class="mb-12">
+        <h2 class="section-title">02. EXPERIENCIA & TRAYECTORIA</h2>
+        <div class="w-12 h-1 bg-electric-blue mt-3 shadow-[0_0_10px_rgba(59,130,246,0.5)]"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <article class="card-slash space-y-3">
+          <div class="flex items-center justify-between text-xs font-mono text-electric-blue">
+            <span>RIWI • MEDELLÍN</span>
+            <span>2026</span>
+          </div>
+          <h3 class="font-display text-xl font-bold text-silver-light">Desarrollo de Apps en Equipo</h3>
+          <p class="text-silver-muted text-sm leading-relaxed">
+            Construcción colaborativa de aplicaciones web y software funcional, aplicando metodologías ágiles, control de versiones con Git y maquetación responsiva con Tailwind CSS.
+          </p>
+        </article>
+
+        <article class="card-slash space-y-3">
+          <div class="flex items-center justify-between text-xs font-mono text-crimson">
+            <span>FORMACIÓN ACADÉMICA</span>
+            <span>Actual</span>
+          </div>
+          <h3 class="font-display text-xl font-bold text-silver-light">Desarrollo de Software & Sistemas</h3>
+          <p class="text-silver-muted text-sm leading-relaxed">
+            Fortalecimiento de competencias técnicas en programación full-stack, automatización de bases de datos, lógica algorítmica y diseño de interfaces de alto rendimiento.
+          </p>
+        </article>
+      </div>
+    </section>
+<!-- PROYECTOS -->
+    <section id="proyectos" class="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <div class="mb-12 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div>
+          <h2 class="section-title">03. PROYECTOS</h2>
+          <div class="w-12 h-1 bg-electric-blue mt-3 shadow-[0_0_10px_rgba(59,130,246,0.5)]"></div>
+        </div>
+        <p class="font-mono text-xs text-silver-muted">Trabajos destacados y aplicaciones funcionales</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Proyecto 1 -->
+        <article class="project-card">
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono text-electric-blue mb-3">
+              <span>SISTEMAS & DATOS</span>
+              <span>2026</span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-silver-light mb-3">
+              Riwi Asistencia BD
+            </h3>
+            <p class="text-silver-muted text-sm leading-relaxed mb-6">
+              Sistema automatizado de control de asistencia integrado con Google Sheets y Forms, validación estricta de registros y paneles de rendimiento.
+            </p>
+          </div>
+          <div>
+            <div class="flex flex-wrap gap-2 mb-6 font-mono text-xs">
+              <span class="tech-tag text-electric-blue">Google Sheets</span>
+              <span class="tech-tag text-electric-blue">AppSheet</span>
+            </div>
+            <div class="flex items-center gap-4 text-sm font-mono">
+              <a href="https://github.com/Felipe022911" target="_blank" rel="noopener noreferrer" class="text-silver-light hover:text-electric-blue underline underline-offset-4 flex items-center gap-1">Ver Repositorio →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article class="project-card">
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono text-crimson mb-3">
+              <span>CAMPAÑA WEB</span>
+              <span>2026</span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-silver-light mb-3">
+              Rueda Libre
+            </h3>
+            <p class="text-silver-muted text-sm leading-relaxed mb-6">
+              Plataforma responsive para comunidad ciclista en Medellín con componentes UI avanzados, rutas, reservas y diseño de alto rendimiento.
+            </p>
+          </div>
+          <div>
+            <div class="flex flex-wrap gap-2 mb-6 font-mono text-xs">
+              <span class="tech-tag text-crimson">Tailwind CSS</span>
+              <span class="tech-tag text-crimson">Bootstrap 5</span>
+            </div>
+            <div class="flex items-center gap-4 text-sm font-mono">
+              <a href=https://felipe022911.github.io/rueda-libre2/ target="_blank" rel="noopener noreferrer" class="text-silver-light hover:text-electric-blue underline underline-offset-4 flex items-center gap-1">Visitar Sitio →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 3: Hide Meal -->
+        <article class="project-card md:col-span-2 lg:col-span-1">
+          <div>
+            <div class="flex items-center justify-between text-xs font-mono text-blue-300 mb-3">
+              <span>DELIVERY & CLANDESTINO</span>
+              <span>2026</span>
+            </div>
+            <h3 class="font-display text-xl font-bold text-silver-light mb-3">
+              Hide Meal
+            </h3>
+            <p class="text-silver-muted text-sm leading-relaxed mb-6">
+              Aplicación web móvil-first para servicio a domicilios de restaurante con modo oscuro/claro nativo, paleta personalizada y formularios de pedidos interactivos.
+            </p>
+          </div>
+          <div>
+            <div class="flex flex-wrap gap-2 mb-6 font-mono text-xs">
+              <span class="tech-tag text-blue-300">HTML5</span>
+              <span class="tech-tag text-blue-300">Tailwind CSS</span>
+              <span class="tech-tag text-blue-300">JavaScript</span>
+            </div>
+            <div class="flex items-center gap-4 text-sm font-mono">
+              <a href="https://felipe022911.github.io/Proyect/" target="_blank" rel="noopener noreferrer" class="text-silver-light hover:text-blue-300 underline underline-offset-4 flex items-center gap-1">Ver sitio →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+ <!-- CONTACTO -->
+    <section id="contacto" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto text-center">
+      <div class="bg-obsidian border border-slate-800 p-8 sm:p-12 clip-slash relative overflow-hidden shadow-[0_0_30px_rgba(59,130,246,0.08)]">
+        <div class="dmc-top-bar"></div>
+        
+        <span class="font-mono text-xs text-electric-blue uppercase tracking-widest">Canal Directo</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold text-silver-light mt-2 mb-4">
+          ¿Listo para colaborar?
+        </h2>
+        <p class="text-silver-muted max-w-xl mx-auto text-sm sm:text-base mb-8">
+          Estoy disponible para proyectos de desarrollo, oportunidades profesionales o colaboraciones técnicas en Medellín y de forma remota.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <!-- Botón de WhatsApp directo con el número 3103681896 -->
+          <a href="https://wa.me/573103681896?text=Hola%20Felipe,%20vi%20tu%20portafolio%20y%20me%20gustaría%20contactarte." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto btn-primary-blue px-8">
+            Enviar Mensaje (WhatsApp)
+          </a>
+          <a href="https://github.com/Felipe022911" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-3.5 border border-slate-700 hover:border-electric-blue text-silver-light font-mono text-sm transition-colors">
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-900 py-8 px-4 text-center text-xs font-mono text-silver-muted bg-abyss">
+    <p>© 2026 Felipe Londoño Abad. Precisión Estilo Yamato</p>
+  </footer>
+
+</body>
+</html>
